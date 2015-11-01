@@ -40,7 +40,7 @@ public class GeneratorTest {
 	private static DBInfo dbInfo = null;
 	private static Connection connection;
 
-	@BeforeClass
+	//@BeforeClass
 	public static void beforeClass() throws ClassNotFoundException,
 			SQLException {
 		generator = new Generator();
@@ -74,14 +74,14 @@ public class GeneratorTest {
 		dbInfo = new DBInfo(connection);
 	}
 
-	@AfterClass
+	//@AfterClass
 	public static void afterClass() throws SQLException, IOException {
 		if (connection != null && !connection.isClosed())
 			connection.close();
 		Runtime.getRuntime().exec("cmd.exe /c start " + "e:\\docgenerator");
 	}
 
-	@Test
+	//@Test
 	public void testGenerate() throws Exception {
 		Set<Table> tables = dbInfo.getAllTableInfos(new TablenameFilter() {
 
