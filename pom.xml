@@ -6,6 +6,7 @@
 		<groupId>org.developerworld.maven</groupId>
 		<artifactId>dw-maven-parent</artifactId>
 		<version>0.0.3</version>
+		<relativePath>../dw-maven-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>org.developerworld.docgenerator</groupId>
@@ -27,12 +28,12 @@
 			<dependency>
 				<groupId>org.developerworld.commons</groupId>
 				<artifactId>dw-commons-lang</artifactId>
-				<version>0.0.2</version>
+				<version>0.0.3</version>
 			</dependency>
 			<dependency>
 				<groupId>org.developerworld.commons</groupId>
 				<artifactId>dw-commons-dbutils</artifactId>
-				<version>0.0.2</version>
+				<version>0.0.3</version>
 			</dependency>
 			<dependency>
 				<groupId>commons-io</groupId>
