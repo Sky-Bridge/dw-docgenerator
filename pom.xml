@@ -12,7 +12,7 @@
 	<artifactId>dw-docgenerator</artifactId>
 	<packaging>pom</packaging>
 	<name>dw-docgenerator</name>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<description>文档生成器主工程</description>
 
 	<!-- scm配置 -->
